@@ -32,20 +32,3 @@ def login_logout(labour_id=None, first_name=None, last_name=None):
 result = create_user("manish", "kumar", 500, "helper")
 logger.info(f"Labour added with Id {result}")
 # print(login_logout(first_name="manish", last_name="kumar"))
-
-
-
-# def main():
-
-#     mysql_db_conn_obj = MySqlConnection(config)
-#     mysql_db_conn_obj.connect()
-#     crud = MySQLCRUDOperation(mysql_db_conn_obj.connection)
-#     mistri_obj = Mistri("Pritam", "Lal", 1200, "mistri", "Plumbing , Painter", crud)
-#     # Labour.login_and_logout(crud, first_name="sumesh", last_name="kumar")
-#     # manish_obj = Labour("sohan","singh", 600, "labour", crud)
-#     # manish_obj.save_to_database(crud)
-
-
-
-# if __name__=="__main__":
-#     main()
