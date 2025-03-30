@@ -1,5 +1,5 @@
 Structure planned
-
+```
 home_price_calculator/
 │── src/
 │   ├── main/
